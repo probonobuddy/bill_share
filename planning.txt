@@ -1,1 +1,19 @@
-This is where I'm planning the project
+Title: Flatmates Bill
+Description: An app that gets as inputs the amount of a bill for a time period
+ and the days that each roommate stayed in the house during that time and
+ returns how much each flatmate has to pay.  It also generates a pdf report
+ stating the name of the roommates, the period, and how much each of them
+ had to pay.
+
+(Nouns are likely to need to be objects or attributes of objects)
+
+Objects: Bill:
+            amount
+            period
+         Flatmate:
+            days_in_house
+            name
+            owed(bill)
+         PdfReport:
+            filename
+            generate(flatmate1, flatmate2, bill)
